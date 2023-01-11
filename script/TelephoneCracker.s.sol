@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.6.2;
+pragma solidity >=0.4.22 <0.9.0;
 import "../src/Solutions/TelephoneRouter.sol";
 import "../lib/forge-std/src/Script.sol";
 import "../lib/forge-std/src/console.sol";

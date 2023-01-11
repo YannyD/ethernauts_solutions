@@ -1,0 +1,35 @@
+{
+  "transactions": [
+    {
+      "hash": "0x8896c024b1cc8bb31fae614f67e7e90135e41d787e7286f12ffb0bfa227e345e",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0x92540D68c53152A2EDfBF4cCc5B7c3DFdCbd2B4D",
+      "function": null,
+      "arguments": null,
+      "rpc": "https://sepolia.infura.io/v3/a6794e06aec04ae7b11bb58857dfd143",
+      "transaction": {
+        "type": "0x02",
+        "from": "0xec485e125d83c45cdcc734a7386a49ba994dfc1d",
+        "to": "0x92540d68c53152a2edfbf4ccc5b7c3dfdcbd2b4d",
+        "gas": "0xa85c",
+        "value": "0x0",
+        "data": "0xdd365b8b",
+        "nonce": "0x32",
+        "accessList": []
+      },
+      "additionalContracts": []
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [
+    "0x8896c024b1cc8bb31fae614f67e7e90135e41d787e7286f12ffb0bfa227e345e"
+  ],
+  "path": "/Users/metayan/Documents/Ethernauts/broadcast/DelegateCracker.s.sol/11155111/run-latest.json",
+  "returns": {},
+  "timestamp": 1673245260,
+  "chain": 11155111,
+  "multi": false,
+  "commit": "58cc2db"
+}
