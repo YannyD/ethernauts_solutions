@@ -1,4 +1,5 @@
 // pragma solidity >=0.4.22 <0.9.0;
+//! Must be run with 0.6.0 compiler
 // import "../lib/forge-std/src/Script.sol";
 // import "../src/Challenge/Token.sol";
 // import "../lib/forge-std/src/console.sol";

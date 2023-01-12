@@ -1,0 +1,57 @@
+{
+  "transactions": [
+    {
+      "hash": "0x0ae45332fb84434ce11ab8e15f1f92f1f2954f671293b536a1ce97d9530717d1",
+      "transactionType": "CREATE",
+      "contractName": "OverthrowKing",
+      "contractAddress": "0xeFa07401cf2F189a7CEF83F91fD2bB239c1c916D",
+      "function": null,
+      "arguments": null,
+      "rpc": "https://sepolia.infura.io/v3/a6794e06aec04ae7b11bb58857dfd143",
+      "transaction": {
+        "type": "0x02",
+        "from": "0xec485e125d83c45cdcc734a7386a49ba994dfc1d",
+        "gas": "0x24346",
+        "value": "0x0",
+        "data": "0x608060405234801561001057600080fd5b50610119806100206000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063e3169ab714602d575b600080fd5b603c603836600460b5565b6050565b604051901515815260200160405180910390f35b6000806000836001600160a01b031666071afd498d000060405160006040518083038185875af1925050503d806000811460a5576040519150601f19603f3d011682016040523d82523d6000602084013e60aa565b606091505b509095945050505050565b60006020828403121560c657600080fd5b81356001600160a01b038116811460dc57600080fd5b939250505056fea264697066735822122079ebad5a04f4c41faab8a208f01635c7924452bf69affab3a5647947a8b1be9d64736f6c63430008110033",
+        "nonce": "0x4c",
+        "accessList": []
+      },
+      "additionalContracts": []
+    },
+    {
+      "hash": "0x1f543a8301fbdb2c0ebcb57730c7ac0c4a28bf1c3a3dc55f7819a20e902812c4",
+      "transactionType": "CALL",
+      "contractName": "OverthrowKing",
+      "contractAddress": "0xeFa07401cf2F189a7CEF83F91fD2bB239c1c916D",
+      "function": "claimKingship(address):(bool)",
+      "arguments": [
+        "0xe0329807B0556a55eDFBBa013184b22C736aaF41"
+      ],
+      "rpc": "https://sepolia.infura.io/v3/a6794e06aec04ae7b11bb58857dfd143",
+      "transaction": {
+        "type": "0x02",
+        "from": "0xec485e125d83c45cdcc734a7386a49ba994dfc1d",
+        "to": "0xefa07401cf2f189a7cef83f91fd2bb239c1c916d",
+        "gas": "0xb207",
+        "value": "0x0",
+        "data": "0xe3169ab7000000000000000000000000e0329807b0556a55edfbba013184b22c736aaf41",
+        "nonce": "0x4d",
+        "accessList": []
+      },
+      "additionalContracts": []
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [
+    "0x0ae45332fb84434ce11ab8e15f1f92f1f2954f671293b536a1ce97d9530717d1",
+    "0x1f543a8301fbdb2c0ebcb57730c7ac0c4a28bf1c3a3dc55f7819a20e902812c4"
+  ],
+  "path": "/Users/metayan/Documents/Ethernauts/broadcast/KingCracker.s.sol/11155111/run-latest.json",
+  "returns": {},
+  "timestamp": 1673420066,
+  "chain": 11155111,
+  "multi": false,
+  "commit": "6e2b0f0"
+}
