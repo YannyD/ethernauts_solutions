@@ -1,0 +1,50 @@
+{
+  "transactions": [
+    {
+      "hash": "0xf48c2e2b1b56b28393e0051dae15b815adaa713c619b426b8bd8b535ce587c48",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0x5D5322c5Dca3ebAb672988000CcAF9093e5e0d58",
+      "function": null,
+      "arguments": null,
+      "rpc": "https://sepolia.infura.io/v3/a6794e06aec04ae7b11bb58857dfd143",
+      "transaction": {
+        "type": "0x02",
+        "from": "0xec485e125d83c45cdcc734a7386a49ba994dfc1d",
+        "to": "0x5d5322c5dca3ebab672988000ccaf9093e5e0d58",
+        "gas": "0x8940",
+        "value": "0x0",
+        "data": "0xe1afb08cf43aec4b2b3f955fa17376e46f57fb6300000000000000000000000000000000",
+        "nonce": "0x68",
+        "accessList": []
+      },
+      "additionalContracts": []
+    }
+  ],
+  "receipts": [
+    {
+      "transactionHash": "0xf48c2e2b1b56b28393e0051dae15b815adaa713c619b426b8bd8b535ce587c48",
+      "transactionIndex": "0x0",
+      "blockHash": "0xec7e88621838dbf2dc028bae7f586a58e8afd21ba440ae155db65fc57f912fc4",
+      "blockNumber": "0x28ed81",
+      "from": "0xec485e125D83C45cdCC734A7386A49ba994dFc1d",
+      "to": "0x5D5322c5Dca3ebAb672988000CcAF9093e5e0d58",
+      "cumulativeGasUsed": "0x5dd9",
+      "gasUsed": "0x5dd9",
+      "contractAddress": null,
+      "logs": [],
+      "status": "0x1",
+      "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "type": "0x2",
+      "effectiveGasPrice": "0xb2d05e07"
+    }
+  ],
+  "libraries": [],
+  "pending": [],
+  "path": "/Users/metayan/Documents/Ethernauts/broadcast/PrivacyCracker.s.sol/11155111/run-latest.json",
+  "returns": {},
+  "timestamp": 1673644615,
+  "chain": 11155111,
+  "multi": false,
+  "commit": "0d1a4c1"
+}

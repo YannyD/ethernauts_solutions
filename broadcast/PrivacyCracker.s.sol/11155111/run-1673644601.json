@@ -1,0 +1,35 @@
+{
+  "transactions": [
+    {
+      "hash": "0xf48c2e2b1b56b28393e0051dae15b815adaa713c619b426b8bd8b535ce587c48",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0x5D5322c5Dca3ebAb672988000CcAF9093e5e0d58",
+      "function": null,
+      "arguments": null,
+      "rpc": "https://sepolia.infura.io/v3/a6794e06aec04ae7b11bb58857dfd143",
+      "transaction": {
+        "type": "0x02",
+        "from": "0xec485e125d83c45cdcc734a7386a49ba994dfc1d",
+        "to": "0x5d5322c5dca3ebab672988000ccaf9093e5e0d58",
+        "gas": "0x8940",
+        "value": "0x0",
+        "data": "0xe1afb08cf43aec4b2b3f955fa17376e46f57fb6300000000000000000000000000000000",
+        "nonce": "0x68",
+        "accessList": []
+      },
+      "additionalContracts": []
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [
+    "0xf48c2e2b1b56b28393e0051dae15b815adaa713c619b426b8bd8b535ce587c48"
+  ],
+  "path": "/Users/metayan/Documents/Ethernauts/broadcast/PrivacyCracker.s.sol/11155111/run-latest.json",
+  "returns": {},
+  "timestamp": 1673644601,
+  "chain": 11155111,
+  "multi": false,
+  "commit": "0d1a4c1"
+}
