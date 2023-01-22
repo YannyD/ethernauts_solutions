@@ -7,10 +7,6 @@ import "../src/utils/BytesLib.sol";
 contract PrivacyCracker is Script {
     Privacy privacy = Privacy(0x5D5322c5Dca3ebAb672988000CcAF9093e5e0d58);
 
-    function bytesToBytes32(bytes calldata b) internal pure returns (bytes32) {
-        return bytes32(b[:32]);
-    }
-
     function run() public {
         uint256 deployerPrivateKey = vm.envUint("PRIVATE_KEY");
         vm.startBroadcast(deployerPrivateKey);
