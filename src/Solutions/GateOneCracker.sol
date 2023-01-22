@@ -2,8 +2,6 @@ pragma solidity 0.8.17;
 import "../utils/BytesLib.sol";
 import "../../lib/forge-std/src/console.sol";
 
-// import "../Challenge/GatekeeperOne.sol";
-
 interface IGatekeeperOne {
     function enter(bytes8 _gateKey) external returns (bool);
 }
