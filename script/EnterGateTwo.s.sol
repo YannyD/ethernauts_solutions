@@ -9,6 +9,7 @@ contract EnterGateTwo is Script {
     function run() public {
         uint256 deployerPrivateKey = vm.envUint("PRIVATE_KEY");
         vm.startBroadcast(deployerPrivateKey);
+        //enter your contract address into the cracker
         gateTwoCracker = new GateTwoCracker(
             address(0x10eb874b47D72c615C8Ae9d90409bba2D032419c)
         );
