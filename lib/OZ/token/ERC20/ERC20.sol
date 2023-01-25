@@ -377,12 +377,6 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
         uint256 amount
     ) internal virtual {
         uint256 currentAllowance = allowance(owner, spender);
-        console.log("owner:");
-        console.log(owner);
-        console.log("spender:");
-        console.log(spender);
-        console.log("currentAllowance:");
-        console.log(currentAllowance);
 
         if (currentAllowance != type(uint256).max) {
             require(
