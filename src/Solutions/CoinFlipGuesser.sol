@@ -13,22 +13,17 @@ contract CoinFlipGuesser {
     }
 
     function flipGuesser() public returns (bool success) {
-        uint256 blockValue = uint256(blockhash(block.number - 1));
         uint256 initialConsecutiveWins = coinFlipContract.consecutiveWins();
-        console.log(initialConsecutiveWins);
-        // uint256 lastHash = coinFlipContract.lastHash();
-        // if (lastHash == blockValue) {
-        //     revert();
-        // }
-
-        // lastHash = blockValue;
+        uint256 blockValue = uint256(blockhash(block.number - 1));
         uint256 coinFlip = blockValue / FACTOR;
         bool guess = coinFlip == 1 ? true : false;
         coinFlipContract.flip(guess);
+
         uint256 newConsecutiveWins = coinFlipContract.consecutiveWins();
-        console.log(newConsecutiveWins);
-        if (initialConsecutiveWins < newConsecutiveWins) {
-            success = true;
+        if (newConsecutiveWins > initialConsecutiveWins) {
+            {
+                success = true;
+            }
         }
     }
 }
